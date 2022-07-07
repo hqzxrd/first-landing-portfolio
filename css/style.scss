@@ -1,0 +1,164 @@
+@import "stylenull.scss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+//font-family: 'Inter', sans-serif;
+//не особо запаривался с letter-spacing
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 80.9309px;
+  line-height: 98px;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background: #000;
+}
+
+.conteiner {
+  max-width: 1552px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  // .header__row
+  padding: 67px 0px 0px 0px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 0px 0px 96px;
+  }
+
+  &__nav {
+    padding: 0px 91px 0px 0px;
+    font-weight: 400;
+    display: flex;
+    text-transform: uppercase;
+    li {
+      margin-right: 91px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      &:last-child {
+        margin: 0px;
+      }
+    }
+  }
+}
+
+.creative {
+  // .creative__title
+
+  &__title {
+    font-weight: 600;
+    font-size: 162.959px;
+    line-height: 134px;
+    text-align: center;
+    padding: 230px 142px 56px 180px;
+  }
+
+  &__text {
+    padding: 0px 188px 0px 224px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+}
+
+.work {
+  // .work__title
+  &__title {
+    padding: 242px 0px 96px 0px;
+  }
+
+  // .work__item-row
+
+  &__item-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  // .work__item
+
+  &__item {
+  }
+}
+
+.services {
+  padding: 374px 0px 186px 0px;
+  color: #000;
+
+  h3 {
+    padding: 60px 0px 24px 44px;
+    font-weight: 600;
+    font-size: 36.0176px;
+  }
+
+  &__title {
+    padding: 0px 0px 102px 0px;
+  }
+
+  // .services__item-row
+
+  &__item-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  // .services__item
+
+  &__item {
+    flex: 0 1 35%;
+    margin: 0px 78px 60px 188px;
+    &:nth-child(even) {
+      margin: 0px;
+    }
+  }
+
+  // .services__content
+
+  &__content {
+    background: #fff;
+    p {
+      padding: 0px 98px 34px 44px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    a {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 0px 0px 74px 44px;
+      &::after {
+        content: url(../img/services/arrow.png);
+        color: #000;
+        position: relative;
+        top: 5px;
+        left: 10px;
+      }
+    }
+  }
+
+  // .services__price
+
+  &__price {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background: #00cf2e;
+    padding: 16px 0px 14px 44px;
+  }
+}

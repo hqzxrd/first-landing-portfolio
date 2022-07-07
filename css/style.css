@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus a:active {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html {
+  font-size: 0.5208333333vw;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 80.9309px;
+  line-height: 98px;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background: #000;
+}
+
+.conteiner {
+  max-width: 1552px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 67px 0px 0px 0px;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 3px 0px 0px 96px;
+}
+.header__nav {
+  padding: 0px 91px 0px 0px;
+  font-weight: 400;
+  display: flex;
+  text-transform: uppercase;
+}
+.header__nav li {
+  margin-right: 91px;
+}
+.header__nav li a {
+  text-decoration: none;
+  color: white;
+}
+.header__nav li:last-child {
+  margin: 0px;
+}
+
+.creative__title {
+  font-weight: 600;
+  font-size: 162.959px;
+  line-height: 134px;
+  text-align: center;
+  padding: 230px 142px 56px 180px;
+}
+.creative__text {
+  padding: 0px 188px 0px 224px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.work__title {
+  padding: 242px 0px 96px 0px;
+}
+.work__item-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services {
+  padding: 374px 0px 186px 0px;
+  color: #000;
+}
+.services h3 {
+  padding: 60px 0px 24px 44px;
+  font-weight: 600;
+  font-size: 36.0176px;
+}
+.services__title {
+  padding: 0px 0px 102px 0px;
+}
+.services__item-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__item {
+  flex: 0 1 35%;
+  margin: 0px 78px 60px 188px;
+}
+.services__item:nth-child(even) {
+  margin: 0px;
+}
+.services__content {
+  background: #fff;
+}
+.services__content p {
+  padding: 0px 98px 34px 44px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.services__content a {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px 0px 74px 44px;
+}
+.services__content a::after {
+  content: url(../img/services/arrow.png);
+  color: #000;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.services__price {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background: #00cf2e;
+  padding: 16px 0px 14px 44px;
+}/*# sourceMappingURL=style.css.map */
