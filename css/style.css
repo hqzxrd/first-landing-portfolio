@@ -156,6 +156,50 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.work__item {
+  position: relative;
+}
+.work__item:hover .trigger-window {
+  transition: 0.8s;
+  opacity: 1;
+  bottom: 0px;
+}
+.work__item .trigger-window {
+  width: 756px;
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  opacity: 0;
+  bottom: -50px;
+}
+.work__item .trigger-window h3 {
+  font-weight: 700;
+  font-size: 45px;
+  padding: 36px 0px 0px 68px;
+}
+.work__item .trigger-window p {
+  display: block;
+  width: 594px;
+  padding: 12px 0px 0px 68px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.work__item .trigger-window a {
+  display: block;
+  text-decoration: none;
+  padding: 34px 0px 32px 68px;
+  color: #000;
+}
+.work__item .trigger-window a::after {
+  content: url(../img/services/arrow.png);
+  color: #000;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
 .services {
   padding: 374px 0px 186px 0px;
   color: #000;
@@ -193,6 +237,8 @@ body {
   font-weight: 600;
   font-size: 20px;
   padding: 0px 0px 74px 44px;
+  text-decoration: none;
+  color: #000;
 }
 .services__content a::after {
   content: url(../img/services/arrow.png);
@@ -223,8 +269,39 @@ body {
   line-height: 29px;
   text-align: center;
 }
-.team_ph {
+.team__photos {
   display: flex;
+}
+.team__ph {
+  position: relative;
+}
+.team__ph:hover .trigger-window2 {
+  transition: 0.8s;
+  opacity: 1;
+  bottom: 0px;
+  left: 0;
+}
+.team__ph .trigger-window2 {
+  width: 378px;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  opacity: 0;
+  bottom: 0px;
+  left: -10px;
+}
+.team__ph .trigger-window2 h3 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 12px 0px 0px 18px;
+}
+.team__ph .trigger-window2 p {
+  display: block;
+  padding: 5px 0px 20px 18px;
+  font-weight: 300;
+  text-align: start;
+  font-size: 20px;
+  color: #5e5e5e;
 }
 
 .contact {

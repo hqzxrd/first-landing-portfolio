@@ -93,7 +93,48 @@ body {
   // .work__item
 
   &__item {
-    :hover {
+    position: relative;
+    &:hover .trigger-window {
+      transition: 0.8s;
+      opacity: 1;
+      bottom: 0px;
+    }
+    img {
+    }
+    .trigger-window {
+      width: 756px;
+      position: relative;
+      h3 {
+        font-weight: 700;
+        font-size: 45px;
+        padding: 36px 0px 0px 68px;
+      }
+      p {
+        display: block;
+        width: 594px;
+        padding: 12px 0px 0px 68px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 34px 0px 32px 68px;
+        color: #000;
+        &::after {
+          content: url(../img/services/arrow.png);
+          color: #000;
+          position: relative;
+          top: 5px;
+          left: 10px;
+        }
+      }
+      background-color: #fff;
+      color: #000;
+      position: absolute;
+      opacity: 0;
+      bottom: -50px;
     }
   }
 }
@@ -144,6 +185,8 @@ body {
       font-weight: 600;
       font-size: 20px;
       padding: 0px 0px 74px 44px;
+      text-decoration: none;
+      color: #000;
       &::after {
         content: url(../img/services/arrow.png);
         color: #000;
@@ -184,8 +227,41 @@ body {
     text-align: center;
   }
 
-  &_ph {
+  &__photos {
     display: flex;
+  }
+  &__ph {
+    position: relative;
+    &:hover .trigger-window2 {
+      transition: 0.8s;
+      opacity: 1;
+      bottom: 0px;
+      left: 0;
+    }
+    img {
+    }
+    .trigger-window2 {
+      width: 378px;
+      h3 {
+        font-weight: 700;
+        font-size: 32px;
+        padding: 12px 0px 0px 18px;
+      }
+      p {
+        display: block;
+        padding: 5px 0px 20px 18px;
+        font-weight: 300;
+        text-align: start;
+        font-size: 20px;
+        color: #5e5e5e;
+      }
+      background-color: #fff;
+      color: #000;
+      position: absolute;
+      opacity: 0;
+      bottom: 0px;
+      left: -10px;
+    }
   }
 }
 
@@ -244,6 +320,7 @@ body {
       font-size: 21.0616px;
       line-height: 25px;
       display: flex;
+
       :nth-child(1) {
         padding-left: 96px;
         padding-right: 762px;
