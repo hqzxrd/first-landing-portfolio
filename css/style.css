@@ -325,12 +325,16 @@ body {
   padding: 316px 0px 56px 0px;
 }
 .contact__con {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-weight: 300;
   font-size: 50px;
 }
-.contact__con p {
+.contact__con a {
   padding: 0px 0px 26px 0px;
+  text-decoration: none;
+  color: #fff;
 }
 .contact__row {
   padding: 40px 0px 0px 0px;
@@ -365,6 +369,10 @@ body {
 
 .PPTC {
   display: flex;
+}
+.PPTC a {
+  text-decoration: none;
+  color: #000;
 }
 .PPTC :last-child {
   padding: 0px 0px 0px 56px;
@@ -572,7 +580,7 @@ body {
   .contact__con {
     font-size: 21.6264px;
   }
-  .contact__con p {
+  .contact__con a {
     padding: 0px 0px 6px 0px;
   }
   .contact__row {
@@ -605,6 +613,9 @@ body {
     order: -5;
     font-weight: 200;
     font-size: 10px;
+  }
+  .PPTC a {
+    color: #fff;
   }
   .PPTC :last-child {
     padding: 0px 0px 0px 0px;

@@ -289,11 +289,15 @@ body {
   // .contact__con
 
   &__con {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-weight: 300;
     font-size: 50px;
-    p {
+    a {
       padding: 0px 0px 26px 0px;
+      text-decoration: none;
+      color: #fff;
     }
   }
 
@@ -336,6 +340,10 @@ body {
 }
 .PPTC {
   display: flex;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
   :last-child {
     padding: 0px 0px 0px 56px;
     text-align: center;
