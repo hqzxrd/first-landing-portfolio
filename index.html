@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 minimum-scale=1.0 maximum-scale=1.0"
+    />
     <title>Portfolio Landing</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -129,6 +132,7 @@
                   </div>
                 </div>
               </div>
+              <div class="mobile-button"><a href="">See All</a></div>
             </div>
             <div class="services">
               <div class="services__title"><h2 class="title">Services</h2></div>
@@ -203,28 +207,56 @@
               </div>
               <div class="team__photos">
                 <div class="team__ph">
-                  <img src="img/our team/ph1.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="img/ourteam/mobileteam/ph1.jpg"
+                      media="(max-width: 376px)"
+                    />
+                    <source srcset="img/ourteam/ph1.png" />
+                    <img src="img/ourteam/ph1.png" alt="My default image" />
+                  </picture>
                   <div class="trigger-window2">
                     <h3>Djon Doe</h3>
                     <p>Digital Marketing Manager</p>
                   </div>
                 </div>
                 <div class="team__ph">
-                  <img src="img/our team/ph2.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="img/ourteam/mobileteam/ph2.jpg"
+                      media="(max-width: 376px)"
+                    />
+                    <source srcset="img/ourteam/ph2.png" />
+                    <img src="img/ourteam/ph2.png" alt="My default image" />
+                  </picture>
                   <div class="trigger-window2">
                     <h3>Aboba Doe</h3>
                     <p>Digital Marketing Manager</p>
                   </div>
                 </div>
                 <div class="team__ph">
-                  <img src="img/our team/ph3.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="img/ourteam/mobileteam/ph3.jpg"
+                      media="(max-width: 376px)"
+                    />
+                    <source srcset="img/ourteam/ph3.png" />
+                    <img src="img/ourteam/ph3.png" alt="My default image" />
+                  </picture>
                   <div class="trigger-window2">
                     <h3>Kek Doe</h3>
                     <p>Digital Marketing Manager</p>
                   </div>
                 </div>
                 <div class="team__ph">
-                  <img src="img/our team/ph4.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="img/ourteam/mobileteam/ph4.jpg"
+                      media="(max-width: 376px)"
+                    />
+                    <source srcset="img/ourteam/ph4.png" />
+                    <img src="img/ourteam/ph4.png" alt="My default image" />
+                  </picture>
                   <div class="trigger-window2">
                     <h3>Doe Doe</h3>
                     <p>Digital Marketing Manager</p>
@@ -239,24 +271,24 @@
                 <p>+0 0000 0000</p>
               </div>
               <div class="contact__links">
-                <ul>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">LinkedIn</a></li>
-                  <li><a href="#">Dribbble</a></li>
-                  <li><a href="#">YouTube</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">Facebook</a></li>
-                </ul>
+                <div class="contact__row">
+                  <div><a href="#">Twitter</a></div>
+                  <div><a href="#">LinkedIn</a></div>
+                  <div><a href="#">Dribbble</a></div>
+                  <div><a href="#">YouTube</a></div>
+                  <div><a href="#">Instagram</a></div>
+                  <div><a href="#">Facebook</a></div>
+                </div>
               </div>
             </div>
           </div>
           <div class="footer">
             <div class="footer__row">
-              <ul>
-                <li>2022 Creatives</li>
-                <li>Privacy Policy</li>
-                <li>Terms and Conditions</li>
-              </ul>
+              <div class="creo">2022 Creatives</div>
+              <div class="PPTC">
+                <div>Privacy Policy</div>
+                <div>Terms and Conditions</div>
+              </div>
             </div>
           </div>
         </div>
